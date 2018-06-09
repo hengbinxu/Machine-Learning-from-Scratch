@@ -2,13 +2,13 @@
 ***
 This project implements some common machine learing algorithm from scratch.
 
-Machine Learning can separate to three step.
+Machine Learning can separate to three steps.
  
  1. Function set.(Hypothesis)
  2. Goodness of a Function.(Define the loss function)
  3. Find the best function.(Optimization)
 
- In this project, I will follow this step to demonstrate how this model work.
+ In this project, I will follow this steps to demonstrate how this model work.
 
 - __Perceptron Learning Algorithm__
 
@@ -43,7 +43,7 @@ plot_decision_boundary(data = df, x_var = "BMI", y_var = "Age", target_variable 
 ```
 <img src = ".\\picture\\NB_DB.png">
 
-##### Iris dataset
+#### Iris dataset
 ```python
 plot_decision_boundary(data = training_data, x_var = "sepal length (cm)", y_var = "petal length (cm)",target_variable = "class")
 ```
